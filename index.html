@@ -2,96 +2,64 @@
 <html lang="en">
 
 <head>
-    <title>My Google Page</title>
+    <title>Google</title>
+    <meta charset="utc-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel=" stylesheet " href="reset.css" type="text/css">
     <link rel="stylesheet" href="styles.css" type="text/css">
-    <link rel="stylesheet" href="reset.css" type="text/css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <div id="container">
-        <header>
-            <nav class="top-nav">
-                <ul>
-                    <div class="nav-item1">
-                        <li>
-                            <a href=" # ">About</a>
-                        </li>
-                        <li>
-                            <a href=" #">Store</a>
-                        </li>
-                    </div>
-
-                    <div class="nav-item2">
-                        <li>
-                            <a href="#">Gmail</a>
-                        </li>
-                        <li>
-                            <a href="#">Images</a>
-                        </li>
-                        <li>
-                            <a id="img-link" href="#">
-                                <img src="images/apps_black_24dp.svg " alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="btn-link" href="#">
-                        Sign in
-                    </a>
-                        </li>
-                    </div>
-                </ul>
+        <header class="header">
+            <nav class="nav-links">
+                <div class="link-section1">
+                    <a href="#">About</a>
+                    <a href="#">Store</a>
+                </div>
+                <div class="link-section1">
+                    <a href="#">Gmail</a>
+                    <a href="#">Images</a>
+                    <a href="#" class="img-link">
+                        <img src="images/apps_black_24dp.svg" alt></a>
+                    <a href="#" class="btn">Sign in</a>
+                </div>
             </nav>
         </header>
-        <main>
-            <div class="main">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png " alt="">
-                <form action="">
-                    <label for="search">
-                <input type="text" id="search" name="searchBox">
-            </label>
-                    <div class="search-icons">
-                        <img src="images/search_black_24dp.svg" alt="">
-                    </div>
-
-                    <div class="mic-icons">
-                        <a href="">
-                            <img src="images/mic_black_24dp.svg" alt="">
-                        </a>
-                    </div>
-                </form>
+        <main class="main-container">
+            <div class="logo"> <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             </div>
+            <form>
+                <div class="form-content">
+                    <img class="one" src="images/search_black_24dp.svg">
+                    <input class="two" type="text" name="search-box">
+                    <img class="three" src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png ">
+
+                </div>
+                <div class="btn">
+                    <input type="submit" class="btn-link" value="Google Search">
+                    <input type="submit" class="btn-link" value="I 'm Feeling Lucky">
+                </div>
+            </form>
+
         </main>
-        <footer>
-            <nav class="bottom-nav">
-                <ul>
-                    <div class="nav-item3">
-                        <li>
-                            <a href="#">Advertising</a>
-                        </li>
-                        <li>
-                            <a href="#">Business</a>
-                        </li>
-                        <li>
-                            <a href="#">How Search Works</a>
-                        </li>
-                    </div>
-                    <div class="nav-item4">
-                        <li>
-                            <a href="#">Privacy</a>
-                        </li>
-                        <li>
-                            <a href="#">Terms</a>
-                        </li>
-                        <li>
-                            <a href="#">Settings</a>
-                        </li>
-                    </div>
-                </ul>
+        <footer class=" footer">
+            <nav class="nav-links footer-links">
+                <div class="link-section2">
+                    <a href="# ">Advertising</a>
+                    <a href="# ">Business</a>
+                    <a href="# ">How Search Works</a>
+                </div>
+                <div class="link-section2">
+                    <a href="# ">Privacy</a>
+                    <a href="# ">Terms</a>
+                    <a href="# ">Settings</a>
+                </div>
             </nav>
         </footer>
     </div>
+
+
 </body>
 
 </html>
